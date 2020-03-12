@@ -1,4 +1,4 @@
-# MERN Application
+# MEVN Application
 
 An application with MongoDB, ExpressJS, Vue and NodeJS
 
