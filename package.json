@@ -1,0 +1,29 @@
+{
+  "name": "mevn-application",
+  "version": "1.0.0",
+  "description": "MEVN-Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/mevn-application.git"
+  },
+  "keywords": [
+    "MEVN",
+    "mongoDB",
+    "expressjs",
+    "Vue",
+    "NodeJS"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/mevn-application/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/mevn-application#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
